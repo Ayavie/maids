@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to predict the price range of electronic devices based on their features. It includes a Jupyter notebook (`maid.ipynb`) for exploratory data analysis (EDA), data preprocessing, feature engineering, and building a machine learning model using Decision Trees. Additionally, a RESTful API (`api.py`) has been developed to make predictions, and a request script (`req.py`) to interact with the API. A Spring Boot project has also been implemented to provide endpoints for various functionalities using MySQL database.
+This project aims to predict the price range of mobile phone devices based on their features. It includes a Jupyter notebook (`maid.ipynb`) for exploratory data analysis (EDA), data preprocessing, feature engineering, and building a machine learning model using Decision Trees. Additionally, a RESTful API (`api.py`) has been developed to make predictions, and a request script (`req.py`) to interact with the API. A Spring Boot project has also been implemented to provide endpoints for various functionalities using MySQL database.
 
 ## Project Structure
 
