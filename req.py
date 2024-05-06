@@ -7,7 +7,7 @@ url = 'http://localhost:5000/predict'
 test_df = pd.read_csv('test.csv')
 
 # Device specifications for prediction
-device_specs = test_df.iloc[0,].to_dict(orient='records')
+device_specs = test_df.iloc[0,].to_dict()
 
 # Send POST request to the Flask API endpoint
 response = requests.post(url, json=device_specs)
