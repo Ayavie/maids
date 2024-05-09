@@ -30,14 +30,14 @@ This project aims to predict the price range of mobile phone devices based on th
 
 ## Database Schema
 
-The MySQL database contains a table named `testdata` with columns representing features of the devices and a column `price_range` representing the predicted price range.
+The MySQL database contains a table named `testdata` with columns representing features of the devices and a column `price_range` representing the price range.
 
 
 ## Requirements
 
 - Python 3.x
 - Jupyter Notebook
-- Libraries: pandas, scikit-learn, flask
+- Libraries: pandas, scikit-learn, seaborn, matplotlib and flask
 - Spring Boot
 - MySQL database
 
